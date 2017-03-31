@@ -24,28 +24,28 @@
         <item>Kos Cowok</item>
     </string-array>
     <string-array name="place_desc">
-        <item> No. telp : +6281331431091 </item>
-        <item> No. telp : +6285330073330 </item>
-        <item> No. telp : +6285100033864 </item>
-        <item> No. telp : +6285236000297 </item>
-        <item> No. telp : +6281334851001 </item>
-        <item> No. telp : +6285791857598 </item>
+        <item> No. telp : +62 813-3143-1091 </item>
+        <item> No. telp : +62 853-3007-3330 </item>
+        <item> No. telp : +62 851-0003-3864 </item>
+        <item> No. telp : +62 852-3600-0297 </item>
+        <item> No. telp : +62 813-3485-1001 </item>
+        <item> No. telp : +62 857-9185-7598 </item>
     </string-array>
-    <string-array name="place_details">
-        <item>Jumlah kamar 7. </item>
+    <string-array name="jumlah_kamar">
+        <item>Jumlah kamar 07 </item>
         <item>Jumlah kamar 10 </item>
-        <item>Jumlah kamar 8  </item>
+        <item>Jumlah kamar 08  </item>
         <item>Jumlah kamar 20 </item>
-        <item>Jumlah kamar 8  </item>
-        <item>Jumlah kamar 4  </item>
+        <item>Jumlah kamar 08  </item>
+        <item>Jumlah kamar 04  </item>
     </string-array>
     <string-array name="place_locations">
-        <item>Jl. Danau Ranau G.6B 5</item>
-        <item>Jl. Danau Ranau Raya G6B2 </item>
-        <item>Jl. Danau Kerinci 5 G6D4</item>
-        <item>Jl. Danau Kerinci 4G6F22</item>
-        <item>Jl. Segara Anak G7F1</item>
-        <item>Jl. Danau Laut Tawar 2 G3F9</item>
+        <item>Jl. Danau Ranau G6B no.05</item>
+        <item>Jl. Danau Ranau Raya G6B no.02 </item>
+        <item>Jl. Danau Kerinci 5 G6D no.04</item>
+        <item>Jl. Danau Kerinci 4 G6F no.22</item>
+        <item>Jl. Segara Anak G7F no.01</item>
+        <item>Jl. Danau Laut Tawar 2 G3F no.09</item>
     </string-array>
     <array name="places_picture">
         <item>@drawable/logo</item>

@@ -1,65 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp"
-    android:background="?android:attr/selectableItemBackground">
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="16dp">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:scaleType="centerCrop"
-        tools:src="@drawable/logo"/>
+        tools:src="@drawable/a" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-
-    </LinearLayout>
     <TextView
+        android:id="@+id/textViewJudul"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/imageView"
-        android:layout_toEndOf="@+id/imageView"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:maxLines="1"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
         android:ellipsize="end"
-        tools:text="Judul"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="#FFFFFF"
-        android:id="@+id/textViewJudul"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+        tools:text="Judul" />
 
     <TextView
-        tools:text="Deskripsi"
+        android:id="@+id/textViewDeskripsi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewJudul"
         android:layout_alignLeft="@id/textViewJudul"
         android:layout_alignStart="@id/textViewJudul"
-        android:maxLines="2"
+        android:layout_below="@id/textViewJudul"
         android:ellipsize="end"
-        android:textColor="@color/colorAccent"
+        android:maxLines="2"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:id="@+id/textViewDeskripsi"/>
+        android:textColor="@color/colorAccent"
+        tools:text="Deskripsi" />
 
     <TextView
-        tools:text="Lokasi"
+        android:id="@+id/textViewLokasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textViewDeskripsi"
         android:layout_alignLeft="@id/textViewDeskripsi"
         android:layout_alignStart="@id/textViewDeskripsi"
-        android:maxLines="2"
+        android:layout_below="@id/textViewDeskripsi"
         android:ellipsize="end"
-        android:textColor="@color/colorAccent"
+        android:maxLines="2"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:id="@+id/textViewLokasi"/>
+        android:textColor="@color/colorAccent"
+        tools:text="Lokasi" />
 
 </RelativeLayout>

@@ -38,6 +38,7 @@ public class KostAdapter extends RecyclerView.Adapter<KostAdapter.ViewHolder> {
         Kost kost = kostList.get(position);
         holder.tvJudul.setText(kost.judul);
         holder.tvDeskripsi.setText(kost.deskripsi);
+        holder.tvLokasi.setText(kost.lokasi);
         holder.ivFoto.setImageDrawable(kost.foto);
     }
 
