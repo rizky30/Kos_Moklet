@@ -5,7 +5,9 @@
     android:layout_height="wrap_content"
     android:background="?android:attr/selectableItemBackground"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:paddingBottom="16dp"
+    android:paddingLeft="40dp"
+    android:paddingTop="16dp">
 
     <ImageView
         android:id="@+id/imageView"
@@ -25,6 +27,7 @@
         android:layout_toRightOf="@+id/imageView"
         android:ellipsize="end"
         android:maxLines="1"
+        android:paddingLeft="15dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="#FFFFFF"
         tools:text="Judul" />
@@ -38,6 +41,7 @@
         android:layout_below="@id/textViewJudul"
         android:ellipsize="end"
         android:maxLines="2"
+        android:paddingLeft="15dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/colorAccent"
         tools:text="Deskripsi" />
@@ -51,6 +55,7 @@
         android:layout_below="@id/textViewDeskripsi"
         android:ellipsize="end"
         android:maxLines="2"
+        android:paddingLeft="15dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/colorAccent"
         tools:text="Lokasi" />
