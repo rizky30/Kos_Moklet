@@ -53,6 +53,7 @@ public class KostAdapter extends RecyclerView.Adapter<KostAdapter.ViewHolder> {
         ImageView ivFoto;
         TextView tvJudul;
         TextView tvDeskripsi;
+        TextView tvLokasi;
 
         public ViewHolder(View itemView)
         {
@@ -60,6 +61,7 @@ public class KostAdapter extends RecyclerView.Adapter<KostAdapter.ViewHolder> {
             ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
             tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
             tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+            tvLokasi = (TextView) itemView.findViewById(R.id.textViewLokasi);
         }
     }
 

@@ -9,11 +9,18 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:scaleType="centerCrop"
-        tools:src="@drawable/a"/>
+        tools:src="@drawable/logo"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,6 +32,7 @@
         android:maxLines="1"
         android:ellipsize="end"
         tools:text="Judul"
+        android:textColor="#FFFFFF"
         android:id="@+id/textViewJudul"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
 
@@ -37,7 +45,21 @@
         android:layout_alignStart="@id/textViewJudul"
         android:maxLines="2"
         android:ellipsize="end"
+        android:textColor="@color/colorAccent"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:id="@+id/textViewDeskripsi"/>
+
+    <TextView
+        tools:text="Lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDeskripsi"
+        android:layout_alignLeft="@id/textViewDeskripsi"
+        android:layout_alignStart="@id/textViewDeskripsi"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:id="@+id/textViewLokasi"/>
 
 </RelativeLayout>

@@ -55,6 +55,7 @@ public class kos_putra extends Fragment {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.places);
         String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
+        String[] arLokasi = resources.getStringArray(R.array.place_locations);
         TypedArray a = resources.obtainTypedArray(R.array.places_picture);
         Drawable[] arFoto = new Drawable[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
@@ -67,7 +68,7 @@ public class kos_putra extends Fragment {
         a.recycle();
 
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Kost(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mList.add(new Kost(arJudul[i], arDeskripsi[i], arLokasi[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
