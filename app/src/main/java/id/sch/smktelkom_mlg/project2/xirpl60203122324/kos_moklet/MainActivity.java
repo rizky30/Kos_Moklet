@@ -1,5 +1,6 @@
 package id.sch.smktelkom_mlg.project2.xirpl60203122324.kos_moklet;
 
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -73,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_about) {
+            startActivity(new Intent(this, about.class));
             return true;
         }
 
