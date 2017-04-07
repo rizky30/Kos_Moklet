@@ -23,13 +23,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
-            android:text="Kos Moklet v.1"
+            android:text="Kos Moklet"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="__________________________________"/>
+            android:text="________________________________________"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -39,7 +39,7 @@
             android:paddingRight="40dp"
             android:paddingLeft="40dp"
             android:textAlignment="center"
-            android:text="Aplikasi ini dibuat untuk siswa maupun calon siswa untuk mencari informasi kos di sekitar lokasi sekolah"
+            android:text="Aplikasi ini dibuat untuk siswa maupun calon siswa untuk memudahkan mencari informasi kos di sekitar lokasi sekolah"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
 
@@ -47,26 +47,26 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:paddingTop="16dp"
-            android:src="@drawable/risti"/>
+            android:src="@drawable/risti2"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="Adristi Iftitah Yuniar"
+            android:text="Adristi Iftitah Yuniar\nXI RPL 6 no. 02"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:paddingTop="16dp"
-            android:src="@drawable/lipi"/>
+            android:src="@drawable/lipi2"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="Alifia Putri N. R."
+            android:text="Alifia Putri Nur Ramadhani\nXI RPL 6 no. 03"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <ImageView
@@ -78,8 +78,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="Fariz Muhammad Rizky"
+            android:text="Fariz Muhammad Rizky\nXI RPL 6 no. 12"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <ImageView
@@ -91,8 +91,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="Muhammad Gaizka Zaqhariou"
+            android:text="Muhammad Gaizka Zaqhariou\nXI RPL 6 no. 23"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <ImageView
@@ -104,9 +104,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
             android:paddingBottom="20dp"
-            android:text="Muhammad Rizky Ajie S."
+            android:text="Muhammad Rizky Ajie Soelistyo\nXI RPL 6 no. 24"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <TextView
