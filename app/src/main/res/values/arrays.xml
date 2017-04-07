@@ -16,12 +16,13 @@
   -->
 <resources>
     <string-array name="places">
-        <item>Kos Cowok</item>
-        <item>Kos Cowok</item>
-        <item>Kos Cowok</item>
-        <item>Kos Cowok</item>
-        <item>Kos Cowok</item>
-        <item>Kos Cowok</item>
+        <item>Kos Bu Bari</item>
+        <item>Kos Bu Ning</item>
+        <item>Kos Bu Agus</item>
+        <item>Kos Bu Susi</item>
+        <item>Kos Bu Noegraha</item>
+        <item>Kos Bu Yayuk</item>
+        <item>Kos Bu Indra</item>
     </string-array>
     <string-array name="place_desc">
         <item> No. telp : +62 813-3143-1091 </item>
@@ -30,6 +31,7 @@
         <item> No. telp : +62 852-3600-0297 </item>
         <item> No. telp : +62 813-3485-1001 </item>
         <item> No. telp : +62 857-9185-7598 </item>
+        <item> No. telp : +62 812-5242-7585 </item>
     </string-array>
     <string-array name="jumlah_kamar">
         <item>Jumlah kamar 07 </item>
@@ -38,6 +40,7 @@
         <item>Jumlah kamar 20 </item>
         <item>Jumlah kamar 08  </item>
         <item>Jumlah kamar 04  </item>
+        <item>Jumlah kamar 06  </item>
     </string-array>
     <string-array name="place_locations">
         <item>Jl. Danau Ranau G6B no.05</item>
@@ -46,8 +49,10 @@
         <item>Jl. Danau Kerinci 4 G6F no.22</item>
         <item>Jl. Segara Anak G7F no.01</item>
         <item>Jl. Danau Laut Tawar 2 G3F no.09</item>
+        <item>Jl. Danau Tambingan G6D no.20</item>
     </string-array>
     <array name="places_picture">
+        <item>@drawable/logo</item>
         <item>@drawable/logo</item>
         <item>@drawable/logo</item>
         <item>@drawable/logo</item>
