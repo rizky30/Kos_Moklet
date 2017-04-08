@@ -19,10 +19,12 @@
         <item>Kos Galon     </item>
         <item>Kos Bidadari  </item>
         <item>Kos Ijo       </item>
-        <item>Kos Salon     </item>
+        <item>Kos Ayu Salon </item>
         <item>Kos Mipkom    </item>
         <item>Kos Horizon   </item>
-        <item>Kos Bu Indra</item>
+        <item>Kos Bu Indra  </item>
+        <item>Kos Muslimah  </item>
+        <item>Kos Bapak Sudiro  </item>
     </string-array>
     <string-array name="place_desc2">
         <item> No. telp : +62 821-4053-6958 </item>
@@ -32,15 +34,19 @@
         <item> No. telp : +62 858-5505-5800 </item>
         <item> No. telp : +62 852-3420-7072 </item>
         <item> No. telp : +62 812-5242-7585 </item>
+        <item> No. telp : +62 818-0502-3240 </item>
+        <item> No. telp : +62 855-8153-53750 </item>
     </string-array>
     <string-array name="jumlah_kamar2">
         <item>Jumlah kamar 09 </item>
         <item>Jumlah kamar 18 </item>
-        <item>Jumlah kamar 09  </item>
+        <item>Jumlah kamar 09 </item>
         <item>Jumlah kamar 04 </item>
         <item>Jumlah kamar 06 </item>
         <item>Jumlah kamar 09 </item>
-        <item>Jumlah kamar 06  </item>
+        <item>Jumlah kamar 06 </item>
+        <item>Jumlah kamar 20 </item>
+        <item>Jumlah kamar 06 </item>
     </string-array>
     <string-array name="place_locations2">
         <item>Jl. Danau Singkarak G7G no.15 </item>
@@ -50,8 +56,12 @@
         <item>Jl. Danau Kerinci 5 G6C no.12 </item>
         <item>Jl. Danau Towuti G5A no.12    </item>
         <item>Jl. Danau Buyan G7F no.15    </item>
+        <item>Jl. Danau Kerinci 5 G6C no.18    </item>
+        <item>Jl. Danau Buyan G7F no.21    </item>
     </string-array>
     <array name="places_picture2">
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
         <item>@drawable/logo</item>
         <item>@drawable/logo</item>
         <item>@drawable/logo</item>
